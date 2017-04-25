@@ -1,8 +1,8 @@
 ✘ Create the info for the 4th project to be shown @cancelled (25/04/2017, 11:09:24)
-✘ Fix positioning of the projects (Center them better etc) @cancelled (25/04/2017, 13:18:45)
-✘ Implement and style buttons for the projects that link to a live version and the github source pages (try it, Source) buttons @cancelled (25/04/2017, 13:18:48)
-☐ Implement an image carousel for the project images
-    ☐ When the carousels image is clicked a new modal window should open with a bigger image/gif and a write up about the project with Try and Source buttons
+✘ Implement an image carousel for the project images @cancelled (25/04/2017, 14:49:59)
+    ✘ When the carousels image is clicked a new modal window should open with a bigger image/gif and a write up about the project with Try and Source buttons @cancelled (25/04/2017, 14:50:00)
+✔ Project Images centered underneath each other @done (25/04/2017, 15:26:05)
+    ☐ Modal window opens a bigger screenshot/gif of the project
 ✔ Handle nav bar links so they link to the relevant sections @done (25/04/2017, 12:55:49)
     ✔ Maybe remove the home link. Probably redundant @done (25/04/2017, 11:09:39)
 ✔ Create the About/Contact section @done (25/04/2017, 12:55:38)
