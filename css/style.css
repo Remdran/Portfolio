@@ -126,26 +126,29 @@ a>#email:hover{
     width: 60%;
     font-size: 24px;
     text-align: center;
-    margin: 0em auto;
+    margin: 2em auto;
     color: #383636;
 }
 
-.try{
+.tryButton{
     margin: 0em 1em 2em 42.5em;
     font-size: 16px;
     padding: 10px 20px;
     background-color: #2098D1;
     color: #FFFFFF;
     border: none;
+    text-decoration: none;
 }
 
-.source{
+.sourceButton{
+    height: 20px;
     margin: 0em;
     font-size: 16px;
-    padding: 10px 20px;
+    padding: 11px 20px;
     background-color: #2098D1;
     color: #FFFFFF;
     border: none;
+    text-decoration: none;
 }
 
 #weatherProject{
@@ -163,8 +166,8 @@ a>#email:hover{
     width: 60%;
     font-size: 24px;
     text-align: center;
-    margin: 0em auto;
-     color: #383636;
+    margin: 2em auto;
+    color: #383636;
 }
 
 #quoteProject{
@@ -182,8 +185,8 @@ a>#email:hover{
     width: 60%;
     font-size: 24px;
     text-align: center;
-    margin: 0em auto 3em;
-     color: #383636;
+    margin: 2em auto 3em;
+    color: #383636;
 }
 
 .contact{
