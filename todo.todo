@@ -1,8 +1,8 @@
-☐ Create the info for the 4th project to be shown
+✘ Create the info for the 4th project to be shown @cancelled (25/04/2017, 11:09:24)
 ☐ Fix positioning of the projects (Center them better etc)
 ☐ Implement and style buttons for the projects that link to a live version and the github source pages (try it, Source) buttons
 ☐ Handle nav bar links so they link to the relevant sections
-    ☐ Maybe remove the home link. Probably redundant
+    ✔ Maybe remove the home link. Probably redundant @done (25/04/2017, 11:09:39)
 ☐ Create the About/Contact section
-
+☐ Make Responsive
 

@@ -108,7 +108,7 @@ a>#email:hover{
 .projectTitle{
     font-size: 60px;
     text-align: center;
-    padding: 2em;
+    padding: 1.2em;
 }
 
 .project1{
@@ -124,13 +124,8 @@ a>#email:hover{
     height: 900px;
 }
 
-.project2{
-    height: 900px;
-    background-color: #eaeaea;
-}
-
 #calcProject{
-    margin: 0em 2em 5em 2em;
+    margin: 1.5em 2em 5em 2em;
     float:left;
 }
 
@@ -184,9 +179,76 @@ a>#email:hover{
 }
 
 .quoteAbout{
-    width: 50%;
+    width: 40%;
     font-size: 24px;
     float:right;
     clear: right;
-    margin: 2em 0em;
+    margin-top: 2em;
+    margin-right: 3em;
+    
+}
+
+.contact{
+    background-color: #2098D1;
+}
+
+.contactWrapper{
+    width: 60%;
+    margin:0 auto;
+}
+
+.about{
+    width: 50%;
+    display: inline-block;
+}
+
+.aboutTitle{
+    font-size: 60px;
+    color:#FFFFFF;
+    padding:2em 2em 1em;
+    text-align: center;
+}
+
+.aboutInfo{
+    font-size: 30px;
+    color:#FFFFFF;
+    text-align: center;
+    padding: 0.5em 2em;   
+}
+
+.bootstrap{
+    font-size: 80px;
+    color:#FFFFFF;
+}
+
+.contactStub{
+    width: 50%;
+    float: right;
+}
+
+.contactTitle{
+    font-size: 60px;
+    color:#FFFFFF;
+    padding:2em 2em 1em;
+    text-align: center;
+}
+
+.linkContact{
+    text-decoration: none;
+}
+
+.emailSpan{
+    font-size: 30px;
+    color:#FFFFFF;
+}
+
+.emailSpan:hover{
+    text-decoration: underline;
+}
+
+.emailContact{
+    font-size: 30px;
+    color:#FFFFFF;
+    text-align: left;
+    padding: 0.5em 2em 0.5em; 
 }
