@@ -112,17 +112,25 @@ a>#email:hover{
     color: #383636;
 }
 
+.galleryDiv {
+    margin: 3em auto 2em;
+    text-align: center;
+    height: 440px;
+    width: 440px;
+}
+
+.gallery { /*Controls size of images */
+    height: 440px;
+    width: 440px;
+}
+
 .calcTitle{
     font-size: 45px;   
     text-align: center;    
-     color: #2098D1;;
+    color: #2098D1;;
 }
 
-#calcProject{
-    margin: 3em 37em 2em;  
-}
-
-.calcAbout{
+.workAbout{
     width: 60%;
     font-size: 24px;
     text-align: center;
@@ -138,6 +146,11 @@ a>#email:hover{
     color: #FFFFFF;
     border: none;
     text-decoration: none;
+    border-radius: 5px;
+}
+
+.tryButton:hover{
+    background-color: #ea6969;
 }
 
 .sourceButton{
@@ -149,44 +162,18 @@ a>#email:hover{
     color: #FFFFFF;
     border: none;
     text-decoration: none;
+    border-radius: 5px;
 }
 
-#weatherProject{
-    margin: 3em 32em 2em;  
+.sourceButton:hover {
+    background-color: #ea6969;
 }
 
-.weatherTitle{
-    margin-top: 2.5em;
+.workTitle{
+    margin-top: 2em;
     font-size: 45px;
     text-align: center;
      color: #2098D1;;
-}
-
-.weatherAbout{
-    width: 60%;
-    font-size: 24px;
-    text-align: center;
-    margin: 2em auto;
-    color: #383636;
-}
-
-#quoteProject{
-    margin: 3em 27em 2em;
-}
-
-.quoteTitle{
-    font-size: 45px;
-    text-align: center;
-    margin-top: 2.5em;
-     color: #2098D1;;
-}
-
-.quoteAbout{
-    width: 60%;
-    font-size: 24px;
-    text-align: center;
-    margin: 2em auto 3em;
-    color: #383636;
 }
 
 .contact{
@@ -200,13 +187,14 @@ a>#email:hover{
 
 .about{
     width: 50%;
+    padding: 10px;
     display: inline-block;
 }
 
 .aboutTitle{
     font-size: 60px;
     color:#FFFFFF;
-    padding: 1.2em 2em 1em;
+    padding: 70px 0px 30px 0px;
     text-align: center;
 }
 
@@ -214,34 +202,35 @@ a>#email:hover{
     font-size: 30px;
     color:#FFFFFF;
     text-align: center;
-    padding: 0.5em 2em 2em;   
+    padding: 5px 10px 20px;   
 }
 
 .icons{
-    font-size: 70px;
+    font-size: 50px;
     color:#FFFFFF;
-    margin-left: 1em;
     display: inline-block;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
 }
 
-.icons2{
-    font-size: 70px;
-    color:#FFFFFF;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    display: inline-block;
+.skillIcon {
+    font-size: 50px;
+    padding: 10px;
 }
 
 .contactStub{
     width: 50%;
     float: right;
+    padding: 10px;
 }
 
 .contactTitle{
     font-size: 60px;
     color:#FFFFFF;
-    padding: 1.2em 2em 1em 0em;
+    padding: 70px 0px 30px 0px;
     text-align: center;
 }
 
@@ -250,6 +239,7 @@ a>#email:hover{
     color:#FFFFFF;
     margin-top: 0.2em;
     margin-left: 1.7em;
+    margin-right: 10px;
     float:left;
 }
 
@@ -274,5 +264,218 @@ a>#email:hover{
     font-size: 30px;
     color:#FFFFFF;
     text-align: left;
-    padding: 0.5em 4.5em 1.5em;     
+    padding: 17px;
+}
+
+
+@media screen and (max-width:2100px) {
+.contactIcon{
+    margin-left: 0em;
+}
+
+
+}
+
+@media screen and (max-width:1420px) {
+.skillIcon {
+    padding: 0px;
+}
+}
+
+@media screen and (max-width:1200px) {
+.wrapper{
+    width: 80%;
+}
+
+.projectWrapper{
+    width:80%;
+}
+
+.workAbout{
+    width: 80%;
+}
+}
+
+@media screen and (max-width:992px) {
+.contactWrapper{
+    width: 100%;
+}
+
+.about{
+    width: 80%;
+    padding: 10px;
+    display: block;
+    margin:0 auto;
+}
+
+.contactStub{
+    width: 80%;
+    padding: 10px;
+    display: block;
+    margin:0 auto;
+}
+}
+
+
+@media screen and (max-width:320px) {
+.wrapper{
+    width: 100%;
+    margin: 0em auto;
+}
+
+nav{
+    width: 100%;
+    padding-top: 30px; 
+    text-align: center;
+}
+
+.titlePage{ 
+    margin-top: 30%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.titlePage > h1{
+    font-size: 70px;
+    margin: 35px;
+}
+
+.titlePage > h2{
+    font-size: 48px;
+    margin: 24px;
+}
+
+#git{    
+    margin-top: 60px;
+    font-size: 50px;
+    padding: 15px;
+}
+
+#linkedin{
+    margin-top: 50px;    
+    font-size: 60px;
+    padding: 15px;
+}
+
+
+#email{
+    margin-top: 50px;    
+    font-size: 60px;
+    padding: 15px;   
+}
+
+#arrow {
+   margin-top: 40vh; /* Check this */
+   font-size: 80px;
+}
+
+.projectWrapper{
+    width:100%;
+    margin:0 auto;
+}
+
+.projectTitle{
+    font-size: 60px;
+    text-align: center;
+    padding: 60px 0px;
+    color: #383636;
+}
+
+.galleryDiv {
+    margin: 32px auto 32px;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+
+.gallery { /*Controls size of images */
+    height: 300px;
+    width: 300px;
+}
+
+.workAbout{
+    width: 90%;
+    font-size: 24px;
+    text-align: center;
+    margin: 2em auto;
+    color: #383636;
+}
+
+.contact{
+    background-color: #2098D1;
+}
+
+/*.contactWrapper{
+    width: 100%;
+    margin:0 auto;
+}
+
+.about{
+    width: 90%;
+}*/
+
+.contactWrapper{
+    width: 90%;
+}
+
+.about{
+    width: 40%;
+}
+
+
+.aboutInfo{
+    font-size: 30px;
+    color:#FFFFFF;
+    text-align: center;
+    padding: 5px 0px 20px;   
+}
+
+
+.contactStub{
+    width: 90%;
+    float: right;
+    padding: 10px;
+}
+
+.contactTitle{
+    font-size: 60px;
+    color:#FFFFFF;
+    padding: 70px 0px 30px 0px;
+    text-align: center;
+}
+
+.contactIcon{
+    font-size: 2.5em;
+    color:#FFFFFF;
+    margin-top: 0.2em;
+    margin-left: 1.7em;
+    margin-right: 10px;
+    float:left;
+}
+
+.contactIcon:hover{
+    color: #ea6969;
+}
+
+.linkContact{
+    text-decoration: none;
+}
+
+.emailSpan{
+    font-size: 30px;
+    color:#FFFFFF;
+}
+
+.emailSpan:hover{
+    text-decoration: underline;
+}
+
+.emailContact{
+    font-size: 30px;
+    color:#FFFFFF;
+    text-align: left;
+    padding: 17px;
+}
+
+
 }
