@@ -112,17 +112,25 @@ a>#email:hover{
     color: #383636;
 }
 
+.galleryDiv {
+    margin: 3em auto 2em;
+    text-align: center;
+    height: 440px;
+    width: 440px;
+}
+
+.gallery { /*Controls size of images */
+    height: 440px;
+    width: 440px;
+}
+
 .calcTitle{
     font-size: 45px;   
     text-align: center;    
-     color: #2098D1;;
+    color: #2098D1;;
 }
 
-#calcProject{
-    margin: 3em 37em 2em;  
-}
-
-.calcAbout{
+.workAbout{
     width: 60%;
     font-size: 24px;
     text-align: center;
@@ -151,42 +159,11 @@ a>#email:hover{
     text-decoration: none;
 }
 
-#weatherProject{
-    margin: 3em 32em 2em;  
-}
-
-.weatherTitle{
-    margin-top: 2.5em;
+.workTitle{
+    margin-top: 2em;
     font-size: 45px;
     text-align: center;
      color: #2098D1;;
-}
-
-.weatherAbout{
-    width: 60%;
-    font-size: 24px;
-    text-align: center;
-    margin: 2em auto;
-    color: #383636;
-}
-
-#quoteProject{
-    margin: 3em 27em 2em;
-}
-
-.quoteTitle{
-    font-size: 45px;
-    text-align: center;
-    margin-top: 2.5em;
-     color: #2098D1;;
-}
-
-.quoteAbout{
-    width: 60%;
-    font-size: 24px;
-    text-align: center;
-    margin: 2em auto 3em;
-    color: #383636;
 }
 
 .contact{
