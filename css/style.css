@@ -93,13 +93,6 @@ a>#email:hover{
     color: #ea6969;
 }
 
-#arrow {
-   display: block;
-   margin-top: 1.5em;
-   font-size: 6em;
-   color:#FFFFFF;
-}
-
 .projectWrapper{
     width:60%;
     margin:0 auto;
@@ -273,42 +266,48 @@ a>#email:hover{
     padding: 17px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
+.icons{
+    font-size: 50px;   
+    padding-top: 20px;
+}
+
+.skillIcon {
+    font-size: 40px;
+    padding: 0px;
+}
+
+.contactIcon{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 0px;
+    float:left;
+}
+
+.emailContact{
+    text-align: left;
+    padding: 20px;
+}
+}
+
+@media screen and (max-width:992px) {
 .frontPage{
     margin: 0px;
     height: 100vh;
 }
 
 .wrapper{
-    width: 80%;
+    width: 70%;
     margin: 0em auto;
 }
 
-nav{
-    width: 100%;
-    padding-top: 30px; 
-    text-align: center;
-}
-
 .titlePage{ 
-    margin-top: 0px;
-    text-align: center;
-}
-
-.titlePage > h1{
-    /*font-size: 70px;*/
-    font-size: 4rem;
-    margin: 35px;
-}
-
-.titlePage > h2{
-    font-size: 48px;
-    margin: 24px 24px 10px 24px;
+    margin-top: 15%;
 }
 
 #git{    
     margin-top: 10px;
-    font-size: 50px;
+    font-size: 60px;
     padding: 15px;
     margin-bottom: 10px;  
 }
@@ -326,6 +325,12 @@ nav{
     font-size: 60px;
     padding: 15px; 
     margin-bottom: 10px;  
+}
+
+nav{
+    width: 100%;
+    padding-top: 30px; 
+    text-align: center;
 }
 
 #arrow {
@@ -357,7 +362,7 @@ nav{
 }
 
 .tryButton{
-    margin: 0px 20px 0px px;
+    margin: 0px 20px 0px 0px;
 }
 
 .sourceButton{
@@ -365,7 +370,7 @@ nav{
 }
 
 .workAbout{
-    width: 90%;
+    width: 70%;
     font-size: 24px;
     text-align: center;
     margin: 2em auto;
@@ -410,7 +415,7 @@ nav{
 .contactIcon{
     font-size: 60px;
     margin-top: 0px;
-    margin-left: 50px;
+    margin-left: 180px;
     float:left;
 }
 
@@ -431,26 +436,14 @@ nav{
 }
 }
 
-@media screen and (max-width:480px) {
-.frontPage{
-    margin: 0px;
-    height: 100vh;
-}
-
+@media screen and (max-width:768px) {
 .wrapper{
-    width: 100%;
+    width: 80%;
     margin: 0em auto;
-}
-
-nav{
-    width: 100%;
-    padding-top: 30px; 
-    text-align: center;
 }
 
 .titlePage{ 
     margin-top: 0px;
-    text-align: center;
 }
 
 .titlePage > h1{
@@ -464,42 +457,43 @@ nav{
     margin: 24px 24px 10px 24px;
 }
 
-#git{    
-    margin-top: 10px;
-    font-size: 50px;
-    padding: 15px;
-    margin-bottom: 10px;  
-}
 
-#linkedin{
-    margin-top: 10px;    
-    font-size: 60px;
-    padding: 15px;
-    margin-bottom: 10px;  
-}
-
-
-#email{
-    margin-top: 10px;    
-    font-size: 60px;
-    padding: 15px; 
-    margin-bottom: 10px;  
-}
-
-#arrow {
-    display:none;
-}
-
-.projectWrapper{
-    width:100%;
-    margin:0 auto;
-}
-
-.projectTitle{
-    font-size: 60px;
+.galleryDiv {
+    margin: 32px auto 32px;
     text-align: center;
-    padding: 60px 0px;
+    height: 300px;
+    width: 300px;
+}
+
+.gallery { /*Controls size of images */
+    height: 300px;
+    width: 300px;
+}
+
+.workAbout{
+    width: 90%;
+    font-size: 24px;
+    text-align: center;
+    margin: 2em auto;
     color: #383636;
+}
+
+.contactIcon{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-left: 50px;
+    float:left;
+}
+}
+
+@media screen and (max-width:480px) {
+.wrapper{
+    width: 100%;
+    margin: 0em auto;
+}
+
+.titlePage{ 
+    margin-top: 0px;
 }
 
 .galleryDiv {
@@ -514,55 +508,12 @@ nav{
     width: 300px;
 }
 
-.tryButton{
-    margin: 0px 20px 0px px;
-}
-
-.sourceButton{
-    margin: 0em;
-}
-
 .workAbout{
     width: 90%;
     font-size: 24px;
     text-align: center;
     margin: 2em auto;
     color: #383636;
-}
-
-.contact{
-    background-color: #2098D1;
-}
-
-.contactWrapper{
-    width: 90%;
-}
-
-.about{
-    width: 100%;
-    padding-bottom: 40px;
-}
-
-.aboutTitle{
-    padding: 40px 0px 30px 0px;
-}
-
-.aboutInfo{
-    font-size: 30px;
-    color:#FFFFFF;
-    text-align: center;
-    padding: 5px 0px 20px;   
-}
-
-.contactStub{
-    width: 100%;
-    float: none;
-    padding: 10px;
-    border-top: 1px solid white;
-}
-
-.contactTitle{
-    padding: 30px 0px 30px 0px;
 }
 
 .contactIcon{
@@ -572,24 +523,8 @@ nav{
     float:none;
 }
 
-.emailSpan{
-    display: none;
-}
-
-
 .emailContact{
     display: none;
-}
-
-.icons{
-    font-size: 50px;   
-    padding-top: 20px;
-
-}
-
-.skillIcon {
-    font-size: 40px;
-    padding: 0px;
 }
 }
 
