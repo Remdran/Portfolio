@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: 'Lato', sans-serif; /*temp*/
+    font-family: sans-serif; /*temp*/
 }
 
 .frontPage{
@@ -138,8 +138,13 @@ a>#email:hover{
     color: #383636;
 }
 
+.buttons{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
 .tryButton{
-    margin: 0em 1em 2em 42.5em;
     font-size: 16px;
     padding: 10px 20px;
     background-color: #2098D1;
@@ -147,6 +152,7 @@ a>#email:hover{
     border: none;
     text-decoration: none;
     border-radius: 5px;
+    margin-right: 20px;
 }
 
 .tryButton:hover{
@@ -267,59 +273,14 @@ a>#email:hover{
     padding: 17px;
 }
 
-
-@media screen and (max-width:2100px) {
-.contactIcon{
-    margin-left: 0em;
+@media screen and (max-width:768px) {
+.frontPage{
+    margin: 0px;
+    height: 100vh;
 }
 
-
-}
-
-@media screen and (max-width:1420px) {
-.skillIcon {
-    padding: 0px;
-}
-}
-
-@media screen and (max-width:1200px) {
 .wrapper{
     width: 80%;
-}
-
-.projectWrapper{
-    width:80%;
-}
-
-.workAbout{
-    width: 80%;
-}
-}
-
-@media screen and (max-width:992px) {
-.contactWrapper{
-    width: 100%;
-}
-
-.about{
-    width: 80%;
-    padding: 10px;
-    display: block;
-    margin:0 auto;
-}
-
-.contactStub{
-    width: 80%;
-    padding: 10px;
-    display: block;
-    margin:0 auto;
-}
-}
-
-
-@media screen and (max-width:320px) {
-.wrapper{
-    width: 100%;
     margin: 0em auto;
 }
 
@@ -330,43 +291,45 @@ nav{
 }
 
 .titlePage{ 
-    margin-top: 30%;
+    margin-top: 0px;
     text-align: center;
-    font-family: 'Lato', sans-serif;
 }
 
 .titlePage > h1{
-    font-size: 70px;
+    /*font-size: 70px;*/
+    font-size: 4rem;
     margin: 35px;
 }
 
 .titlePage > h2{
     font-size: 48px;
-    margin: 24px;
+    margin: 24px 24px 10px 24px;
 }
 
 #git{    
-    margin-top: 60px;
+    margin-top: 10px;
     font-size: 50px;
     padding: 15px;
+    margin-bottom: 10px;  
 }
 
 #linkedin{
-    margin-top: 50px;    
+    margin-top: 10px;    
     font-size: 60px;
     padding: 15px;
+    margin-bottom: 10px;  
 }
 
 
 #email{
-    margin-top: 50px;    
+    margin-top: 10px;    
     font-size: 60px;
-    padding: 15px;   
+    padding: 15px; 
+    margin-bottom: 10px;  
 }
 
 #arrow {
-   margin-top: 40vh; /* Check this */
-   font-size: 80px;
+    display:none;
 }
 
 .projectWrapper{
@@ -394,7 +357,165 @@ nav{
 }
 
 .tryButton{
-    margin: 0px 20px 0px 60px;
+    margin: 0px 20px 0px px;
+}
+
+.sourceButton{
+    margin: 0em;
+}
+
+.workAbout{
+    width: 90%;
+    font-size: 24px;
+    text-align: center;
+    margin: 2em auto;
+    color: #383636;
+}
+
+.contact{
+    background-color: #2098D1;
+}
+
+.contactWrapper{
+    width: 90%;
+}
+
+.about{
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.aboutTitle{
+    padding: 40px 0px 30px 0px;
+}
+
+.aboutInfo{
+    font-size: 30px;
+    color:#FFFFFF;
+    text-align: center;
+    padding: 5px 0px 20px;   
+}
+
+.contactStub{
+    width: 100%;
+    float: none;
+    padding: 10px;
+    border-top: 1px solid white;
+}
+
+.contactTitle{
+    padding: 30px 0px 30px 0px;
+}
+
+.contactIcon{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-left: 50px;
+    float:left;
+}
+
+.emailContact{
+    text-align: left;
+    padding: 20px;
+}
+
+.icons{
+    font-size: 50px;   
+    padding-top: 20px;
+
+}
+
+.skillIcon {
+    font-size: 40px;
+    padding: 0px;
+}
+}
+
+@media screen and (max-width:480px) {
+.frontPage{
+    margin: 0px;
+    height: 100vh;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0em auto;
+}
+
+nav{
+    width: 100%;
+    padding-top: 30px; 
+    text-align: center;
+}
+
+.titlePage{ 
+    margin-top: 0px;
+    text-align: center;
+}
+
+.titlePage > h1{
+    /*font-size: 70px;*/
+    font-size: 4rem;
+    margin: 35px;
+}
+
+.titlePage > h2{
+    font-size: 48px;
+    margin: 24px 24px 10px 24px;
+}
+
+#git{    
+    margin-top: 10px;
+    font-size: 50px;
+    padding: 15px;
+    margin-bottom: 10px;  
+}
+
+#linkedin{
+    margin-top: 10px;    
+    font-size: 60px;
+    padding: 15px;
+    margin-bottom: 10px;  
+}
+
+
+#email{
+    margin-top: 10px;    
+    font-size: 60px;
+    padding: 15px; 
+    margin-bottom: 10px;  
+}
+
+#arrow {
+    display:none;
+}
+
+.projectWrapper{
+    width:100%;
+    margin:0 auto;
+}
+
+.projectTitle{
+    font-size: 60px;
+    text-align: center;
+    padding: 60px 0px;
+    color: #383636;
+}
+
+.galleryDiv {
+    margin: 32px auto 32px;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+
+.gallery { /*Controls size of images */
+    height: 300px;
+    width: 300px;
+}
+
+.tryButton{
+    margin: 0px 20px 0px px;
 }
 
 .sourceButton{
@@ -447,7 +568,7 @@ nav{
 .contactIcon{
     font-size: 60px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 52px;
     float:none;
 }
 
@@ -471,3 +592,18 @@ nav{
     padding: 0px;
 }
 }
+
+@media screen and (max-width:320px) {
+.frontPage{
+    margin: 0px;
+    height: 100vh;
+}
+
+.contactIcon{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float:none;
+}
+}
+
